@@ -1,0 +1,22 @@
+.calculatrice{
+    background-color: #9edef6;
+    padding: 10px;
+    width: 35%;
+
+}
+
+.fonctions{
+    background-color: #aec2f6;
+    padding: 10px;
+    width: 35%;
+
+}
+
+input{
+    width: 40px;
+}
+
+.somme, .position,.grandPair,.nbPairs{
+    display: inline-block;
+}
+

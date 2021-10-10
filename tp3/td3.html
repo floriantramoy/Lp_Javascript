@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="td3.css">
+
+</head>
+<body>
+<h1>TD3 - Module et DOM</h1>
+<div class="calculatrice">
+    <p>Saisie des éléments du tableau :</p>
+
+    <div class="cloneDiv">
+        <label>Elément 1</label>
+        <input type="text" name="elements[]">
+        <button class="addNewElement">+</button>
+    </div>
+    <br>
+    <div class="rechercher">
+        <label>Elément à rechercher : </label>
+        <input type="text" id="rechercher">
+    </div>
+    <br>
+    <div>
+        <button id="resultat" type="submit">Produire les résultats</button>
+    </div>
+
+</div>
+<br>
+<div class="fonctions">
+    <div>
+    <div class="somme">Somme des éléments : </div><div class="somme" id="somme"></div>
+    </div>
+    <div>
+    <div class="nbPairs">Nombre de pairs : </div><div class="nbPairs" id="nbPairs"></div>
+    </div>
+    <div>
+    <div class="grandPair">Plus grand élément pair :</div><div class="grandPair" id="grandPair"></div>
+    </div>
+    <div>
+    <div class="position">Position de l'élément dans la table : </div><div class="position" id="position"></div>
+    </div>
+</div>
+<script src="td3_modules14.js" type="module"></script>
+</body>
